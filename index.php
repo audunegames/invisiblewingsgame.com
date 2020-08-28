@@ -1,7 +1,7 @@
 <?php
 require("vendor/autoload.php");
 
-use Feather\Feather;
+use Danae\Feather\Feather;
 
 // Create the context
 $feather = new Feather();
