@@ -20,13 +20,13 @@ $feather->context = [
     'contact' => 'https://danaedekker.com/contact',
     'people' => [
       'danae_dekker' => 'https://danaedekker.com/',
-      'maricu_mana' => 'https://www.deviantart.com/maricu-mana',
+      'maricu_mana' => 'https://twitter.com/Maricu_Mana',
+      'katherine_tole' => 'https://katherinetole.com/',
     ],
     'social' => [
-      'steam' => '#',
-      'itch_io' => '#',
-      'twitter' => '#',
-      'facebook' => '#',
+      'steam' => 'https://store.steampowered.com/app/1419380/Invisible_Wings/',
+      'itch_io' => 'https://audune.itch.io/invisiblewings',
+      'twitter' => 'https://twitter.com/AuduneGames',
     ],
   ],
 ];
