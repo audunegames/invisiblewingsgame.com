@@ -14,7 +14,7 @@ $feather->pages->add('presskit', ['title' => 'Press Kit']);
 $feather->context = [
   'assets' => $feather->base_path . '/assets',
   'embeds' => [
-    'trailer' => 'https://www.youtube.com/embed/UB10AQidnxM',
+    'trailer' => 'https://www.youtube.com/embed/JCrAeKzTidU',
   ],
   'links' => [
     'contact' => 'https://danaedekker.com/contact',
