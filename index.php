@@ -21,6 +21,7 @@ $feather->context = [
     'people' => [
       'danae_dekker' => 'https://danaedekker.com/',
       'maricu_mana' => 'https://twitter.com/Maricu_Mana',
+      'jessica_spencer' => 'https://jessicaspencer.work/',
       'katherine_tole' => 'https://katherinetole.com/',
     ],
     'social' => [
