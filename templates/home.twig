@@ -21,6 +21,7 @@
 
           <div class="navbar-menu is-family-secondary is-size-4" id="navbar">
             <div class="navbar-start">
+              <a class="navbar-item px-4" href="#news">News</a>
               <a class="navbar-item px-4" href="#story">Story</a>
               <a class="navbar-item px-4" href="#characters">Characters</a>
               <a class="navbar-item px-4" href="#world">World</a>
@@ -51,10 +52,71 @@
             View on Itch.io
           </a>
         </div>
+      </div>
+    </div>
 
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
         <figure class="image is-16by9">
           <iframe class="has-ratio" src="{{ embeds.trailer }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </figure>
+
+        <div class="columns is-multiline">
+          <div class="column is-half-desktop">
+            <a target="=_blank" href="{{ assets }}/images/rc2-haven-lilith.png">
+              <figure class="image">
+                <img src="{{ assets }}/images/rc2-haven-lilith.png" alt="Screenshot">
+              </figure>
+            </a>
+          </div>
+
+          <div class="column is-half-desktop">
+            <a target="=_blank" href="{{ assets }}/images/rc2-bedroom-diary.png">
+              <figure class="image">
+                <img src="{{ assets }}/images/rc2-bedroom-diary.png" alt="Screenshot">
+              </figure>
+            </a>
+          </div>
+
+          <div class="column is-half-desktop">
+            <a target="=_blank" href="{{ assets }}/images/rc2-piazza.png">
+              <figure class="image">
+                <img src="{{ assets }}/images/rc2-piazza.png" alt="Screenshot">
+              </figure>
+            </a>
+          </div>
+
+          <div class="column is-half-desktop">
+            <a target="=_blank" href="{{ assets }}/images/rc2-dressing-room-tail.png">
+              <figure class="image">
+                <img src="{{ assets }}/images/rc2-dressing-room-tail.png" alt="Screenshot">
+              </figure>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-medium has-background-image has-hero-border" style="background-image: url('{{ assets }}/images/piazza.png');">
+    <div class="hero-body"></div>
+  </section>
+
+  <!-- News -->
+  <section class="section container content">
+    <a name="news"></a>
+    <h1 class="has-text-centered mb-6">Announcements</h1>
+
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <div class="message is-primary">
+          <div class="message-body">
+            <h3 class="has-text-primary-dark">Demo release on April 15th, 2021</h3>
+
+            <p>On April 15th the demo of Invisible Wings will be released as an interactive visual novel. This demo features a fully polished vertical slice of Dawn's story, which can be played in roughly 45 minutes, and acts like a proof of concept for the world and the complete story.</p>
+            <p>After this release, we will look into funding and start a crowdfunding campaign in order to turn Invisible Wings into a fully-fledged narrative adventure game. With your help the rest of the story can be realized, and you can continue this adventure together with Dawn, Lilith and Aranea! We're not going to spoil anything, but there are still a lot of surprises waiting for them!</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -64,8 +126,8 @@
   </section>
 
   <!-- Story -->
-  <a name="story"></a>
   <section class="section container content">
+    <a name="story"></a>
     <h1 class="has-text-centered mb-6">The story</h1>
 
     <div class="columns">
@@ -81,8 +143,8 @@
   </section>
 
   <!-- Characters -->
-  <a name="characters"></a>
   <section class="section container content">
+    <a name="characters"></a>
     <h1 class="has-text-centered mb-6">Meet the characters</h1>
 
     <div class="columns">
@@ -120,8 +182,8 @@
   </section>
 
   <!-- World -->
-  <a name="world"></a>
   <section class="section container content">
+    <a name="world"></a>
     <h1 class="has-text-centered mb-6">A vast world</h1>
 
     <div class="columns">
