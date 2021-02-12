@@ -29,6 +29,9 @@ $feather->context = [
       'steam' => 'https://store.steampowered.com/app/1419380/Invisible_Wings/',
       'itch_io' => 'https://audune.itch.io/invisiblewings',
       'twitter' => 'https://twitter.com/AuduneGames',
+      'facebook' => 'https://facebook.com/AuduneGames',
+      'patreon' => 'https://patreon.com/audune',
+      'discord' => 'https://discord.gg/2bbEpTkPDG',
     ],
   ],
 ];
