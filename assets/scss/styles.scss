@@ -19,6 +19,7 @@
   a:not(.button) {
     color: $link;
     border-bottom: 1px $link dashed;
+    text-decoration: none;
 
     &.is-icon-link {
       border-bottom: none;
@@ -104,4 +105,11 @@
 
   background-image: url('../images/hero-border-top.png');
   background-position: center;
+}
+
+// Announcement box
+.announcement {
+  @extend .box;
+  @extend .is-shadowless;
+  @extend .has-background-primary-light;
 }
