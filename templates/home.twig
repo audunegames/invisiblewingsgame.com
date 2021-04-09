@@ -1,7 +1,8 @@
 {% extends "index.twig" %}
 
 {% block content %}
-  <section class="hero is-medium has-background-image has-hero-border-bottom" style="background-image: url('{{ assets }}/images/menu-dawn.png'); background-position: bottom;">
+  <!-- Lead hero -->
+  <section class="hero is-medium has-background-image has-hero-border-bottom" style="background-image: url('{{ assets }}/images/backgrounds/menu-dawn.png'); background-position: bottom;">
     <div class="hero-body">
       <div class="container has-text-centered">
         <img class="image has-logo-image" src="{{ assets }}/images/logo-blue-glow.png">
@@ -24,7 +25,6 @@
               <a class="navbar-item px-4" href="#news">News</a>
               <a class="navbar-item px-4" href="#story">Story</a>
               <a class="navbar-item px-4" href="#characters">Characters</a>
-              <a class="navbar-item px-4" href="#world">World</a>
             </div>
           </div>
         </div>
@@ -39,13 +39,13 @@
         <p class="is-lead-4">Invisible Wings is a narrative adventure game about Dawn, a young woman of faerie descent, and her quest for answers to her own identity and self-acceptance.</p>
 
         <div class="buttons is-centered is-family-secondary my-5">
-          <a class="button is-primary is-medium" href="{{ links.social.steam }}">
+          <a class="button is-primary is-medium is-rounded" href="{{ links.social.steam }}">
             <span class="icon mr-2">
               <i class="fab fa-steam"></i>
             </span>
             View on Steam
           </a>
-          <a class="button is-primary is-medium" href="{{ links.social.itch_io }}">
+          <a class="button is-primary is-medium is-rounded" href="{{ links.social.itch_io }}">
             <span class="icon mr-2">
               <i class="fab fa-itch-io"></i>
             </span>
@@ -57,54 +57,23 @@
 
     <div class="columns is-centered">
       <div class="column is-8">
-        <figure class="image is-16by9">
+        <figure class="image is-16by9 mx-0">
           <iframe class="has-ratio" src="{{ embeds.trailer }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </figure>
-
-        <div class="columns is-multiline">
-          <div class="column is-half-desktop">
-            <a target="=_blank" href="{{ assets }}/images/rc2-haven-lilith.png">
-              <figure class="image">
-                <img src="{{ assets }}/images/rc2-haven-lilith.png" alt="Screenshot">
-              </figure>
-            </a>
-          </div>
-
-          <div class="column is-half-desktop">
-            <a target="=_blank" href="{{ assets }}/images/rc2-bedroom-diary.png">
-              <figure class="image">
-                <img src="{{ assets }}/images/rc2-bedroom-diary.png" alt="Screenshot">
-              </figure>
-            </a>
-          </div>
-
-          <div class="column is-half-desktop">
-            <a target="=_blank" href="{{ assets }}/images/rc2-piazza.png">
-              <figure class="image">
-                <img src="{{ assets }}/images/rc2-piazza.png" alt="Screenshot">
-              </figure>
-            </a>
-          </div>
-
-          <div class="column is-half-desktop">
-            <a target="=_blank" href="{{ assets }}/images/rc2-dressing-room-tail.png">
-              <figure class="image">
-                <img src="{{ assets }}/images/rc2-dressing-room-tail.png" alt="Screenshot">
-              </figure>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <section class="hero is-medium has-background-image has-hero-border" style="background-image: url('{{ assets }}/images/skating-rink.png');">
+  <!-- News hero -->
+  <section class="hero is-medium has-background-image has-hero-border" style="background-image: url('{{ assets }}/images/backgrounds/skating-rink.png');">
     <div class="hero-body"></div>
   </section>
 
+  <!-- News anchor -->
+  <a name="news"></a>
+
   <!-- News -->
   <section class="section container content">
-    <a name="news"></a>
     <h1 class="has-text-centered mb-6">Announcements</h1>
 
     <div class="columns is-centered">
@@ -125,15 +94,38 @@
         </div>
       </div>
     </div>
+
+    <h1 class="has-text-centered mb-6">Reviews and articles</h1>
+
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="announcement">
+          <p>
+            <span>&ldquo;A visual novel in which fairies pose a threat? Very nice idea and I really like the world building around it. Has a good serious undertone in many scenes, which reflects society and its difficulties well. [...] the structure that was built around it is more than solid and already makes you curious about the finished game.&rdquo;</span><br>
+            <span class="is-italic">&ndash; MahouGao, <a href="https://visual-novel.info/steam-game-festival-fruehjahr-2021-teil-2/">Visual Novel Info</a></span>
+          </p>
+        </div>
+
+        <div class="announcement">
+          <p>
+            <span>&ldquo;Follow Dawn, a young woman of faerie descent, as she tries to find answers to her own identity in a modern world, where faeries and humans were supposed to live in harmony.&rdquo;</span><br>
+            <span class="is-italic">&ndash; Joyce Ross, <a href="https://gameskeys.net/top-steam-games-to-tryout-in-april-2021/">GameKeys</a></span>
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section class="hero is-medium has-background-image has-hero-border" style="background-image: url('{{ assets }}/images/piazza.png');">
+  <!-- Story hero -->
+  <section class="hero is-medium has-background-image has-hero-border" style="background-image: url('{{ assets }}/images/backgrounds/piazza.png');">
     <div class="hero-body"></div>
   </section>
 
+  <!-- Story anchor -->
+  <a name="story"></a>
+
   <!-- Story -->
   <section class="section container content">
-    <a name="story"></a>
     <h1 class="has-text-centered mb-6">The story</h1>
 
     <div class="columns is-centered">
@@ -144,19 +136,22 @@
     </div>
   </section>
 
-  <section class="hero is-medium has-background-image has-hero-border" style="background-image: url('{{ assets }}/images/haven.png');">
+  <!-- Characters hero -->
+  <section class="hero is-medium has-background-image has-hero-border" style="background-image: url('{{ assets }}/images/backgrounds/haven.png');">
     <div class="hero-body"></div>
   </section>
 
+  <!-- Characters anchor -->
+  <a name="characters"></a>
+
   <!-- Characters -->
   <section class="section container content">
-    <a name="characters"></a>
     <h1 class="has-text-centered mb-6">Meet the characters</h1>
 
     <div class="columns is-centered">
       <div class="column is-4">
         <figure class="image is-128x128 is-centered">
-          <img class="is-rounded has-background-grey-lighter" src="{{ assets }}/images/dawn-head.png" alt="Dawn">
+          <img class="is-rounded has-background-grey-lighter" src="{{ assets }}/images/characters/dawn-head.png" alt="Dawn">
         </figure>
 
         <h3 class="has-text-centered">Dawn</h3>
@@ -165,7 +160,7 @@
 
       <div class="column is-4">
         <figure class="image is-128x128 is-centered">
-          <img class="is-rounded has-background-grey-lighter" src="{{ assets }}/images/lilith-head.png" alt="Lilith">
+          <img class="is-rounded has-background-grey-lighter" src="{{ assets }}/images/characters/lilith-head.png" alt="Lilith">
         </figure>
 
         <h3 class="has-text-centered">Lilith</h3>
@@ -174,7 +169,7 @@
 
       <div class="column is-4">
         <figure class="image is-128x128 is-centered">
-          <img class="is-rounded has-background-grey-lighter" src="{{ assets }}/images/aranea-head.png" alt="Aranea">
+          <img class="is-rounded has-background-grey-lighter" src="{{ assets }}/images/characters/aranea-head.png" alt="Aranea">
         </figure>
 
         <h3 class="has-text-centered">Aranea</h3>
@@ -183,37 +178,12 @@
     </div>
   </section>
 
-  <section class="hero is-medium has-background-image has-hero-border" style="background-image: url('{{ assets }}/images/diner.png');">
+  <!-- Credits hero -->
+  <section class="hero is-medium has-background-image has-hero-border" style="background-image: url('assets/images/backgrounds/bedroom.png');">
     <div class="hero-body"></div>
   </section>
 
-  <!-- World -->
-  <section class="section container content">
-    <a name="world"></a>
-    <h1 class="has-text-centered mb-6">A vast world</h1>
-
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <p>Earth was created by two spirits: Cyll, the shining sun, and Ileth, the night sky. Their nine daughters and sons, the nymphs, and their children, the faeries, turned Earth from a bald rock to a place full of life and light as we still know it today. As the icing on the cake the nymphs conjured up the humans, which could fully admire the creation of the nymphs in its full form. Although it was forbidden, the curious faeries hid their wings and tails and visited the humans in their settlements. Some faeries even fell in love with humans, which led to the birth of hybrids. However, those “bastard children” were not well received by both humans and faeries. Because of the orthodox faerie beliefs they were mostly raised in the human world, but most humans were prejudiced, because faeries are dangerous because of their touch magic, so why would their children be innocent?</p>
-
-        <h3 class="has-text-centered">Faeries</h3>
-        <p>Faeries are human-sized creatures that are also humane in appearance. They do however bear a tail and an often beautiful set of wings, which can be used to fly. Originally faeries are the offspring of the nine nymphs created by the two ancient spirits, from whom they can inherit magical powers.</p>
-
-        <p>Most faeries live secluded from the humans in harmony with nature. They form tribes from 10 to 30 faeries who live together. Faeries have their own religion with pantheistic beliefs, centered around the sun and nature. They are however naturally curious creatures and more than once they may visit the human cities, even to the point of integrating in their society.</p>
-        <h3 class="has-text-centered">Hybrids</h3>
-        <p>Faeries can mate with humans as well, including using their tails. The offspring of a faerie and a human is called a hybrid and inherits human as well as faerie qualities. More often than not they inherit the tail of their faerie parent, but inherited wings are however rarely seen.</p>
-
-        <p>Most hybrids live in the human society, where they form a vast minority. Often hybrids are looked down on by humans and are socially discriminated. Therefore hybrids often live secluded and hidden. There are hybrids who stand up for their rights however, even getting through to the political views of the country.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="hero is-medium has-background-image has-hero-border" style="background-image: url('assets/images/bedroom.png');">
-    <div class="hero-body"></div>
-  </section>
-
-  <!-- About -->
-  <a name="about"></a>
+  <!-- Credits -->
   <section class="section">
     <div class="container content">
       <div class="columns is-centered">
