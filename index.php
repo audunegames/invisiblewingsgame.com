@@ -30,6 +30,7 @@ $feather->context = [
       'twitter' => 'https://twitter.com/AuduneGames',
       'facebook' => 'https://facebook.com/AuduneGames',
       'patreon' => 'https://patreon.com/audune',
+      'ko_fi' => 'https://ko-fi.com/audune',
       'discord' => 'https://discord.gg/2bbEpTkPDG',
     ],
   ],
