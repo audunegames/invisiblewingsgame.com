@@ -17,7 +17,7 @@ $feather->context = [
   ],
   'links' => [
     'audune' => 'https://audune.com/',
-    'contact' => 'mailto:support@audune.com',
+    'contact' => 'c3VwcG9ydEBhdWR1bmUuY29t',
     'people' => [
       'danae_dekker' => 'https://danaedekker.com/',
       'maricu_mana' => 'https://twitter.com/Maricu_Mana',
@@ -25,7 +25,7 @@ $feather->context = [
       'katherine_tole' => 'https://katherinetole.com/',
     ],
     'social' => [
-      'steam' => 'https://store.steampowered.com/app/1419380/Invisible_Wings/',
+      'steam' => 'https://store.steampowered.com/app/1419380/Invisible_Wings_Chapter_One/',
       'itch_io' => 'https://audune.itch.io/invisiblewings',
       'twitter' => 'https://twitter.com/AuduneGames',
       'facebook' => 'https://facebook.com/AuduneGames',
