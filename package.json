@@ -1,0 +1,14 @@
+{
+  "name": "invisiblewingsgame.com",
+  "version": "1.0.0",
+  "author": "Danae Dekker <info@danaedekker.com>",
+  "description": "The website for Invisible Wings, built with Bulma and Font Awesome",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audunegames/invisiblewingsgame.com.git"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bulma": "^0.9.4"
+  }
+}

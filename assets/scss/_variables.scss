@@ -1,13 +1,14 @@
-// Imports for fonts
+// Import the initial variables and fonts
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&family=Simonetta:wght@400;900&display=swap');
+@import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
 
-// Set the color variables
-$primary: #8b89d2;
-$link: $primary;
-
-// Set the font variables
+// Custom fonts
 $family-primary: 'Philosopher', sans-serif;
 $family-secondary: 'Simonetta', cursive;
+
+// Custom colors
+$primary: #8b89d2;
+$link: $primary;
 
 // Set other variables
 $body-overflow-y: auto;
