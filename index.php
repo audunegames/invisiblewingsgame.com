@@ -13,7 +13,7 @@ $feather->pages->add('home', ['default' => true]);
 $feather->context = [
   'assets' => $feather->base_path . '/assets',
   'embeds' => [
-    'trailer' => 'https://www.youtube.com/embed/Zn5NWS1Zm7Q',
+    'trailer' => 'https://www.youtube.com/embed/IbGgyq8-2xk',
   ],
   'links' => [
     'audune' => 'https://audune.com/',
