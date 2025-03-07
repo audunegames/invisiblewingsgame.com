@@ -1,6 +1,16 @@
 {
+  "name": "danae/invisiblewingsgame.com",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Danae Dekker",
+      "email": "hello@danaedekker.com"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://invisiblewingsgame.com/",
   "require": {
-    "php": "^7.4||^8.0",
+    "php": "^8.0",
     "danae/feather": "^0.5"
   },
   "minimum-stability": "dev",
